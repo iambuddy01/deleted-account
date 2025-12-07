@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 deleted-account
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -29,28 +29,28 @@ from dotenv import load_dotenv
 
 load_dotenv("config.env")
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🥵")
-ALIVE_LOGO = getenv("ALIVE_LOGO", "https://graph.org/file/ec99cb6dba229bd984537.jpg")
-PM_PIC = getenv("PM_PIC", "https://graph.org/file/936ef33023a77fa9a6813.jpg")
-ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", "⚡")
+ALIVE_LOGO = getenv("ALIVE_LOGO", "https://files.catbox.moe/djqewp.jpg")
+PM_PIC = getenv("PM_PIC", "https://files.catbox.moe/djqewp.jpg")
+ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am deleted account.")
 API_HASH = getenv("API_HASH", "d6186691704bd901bdab275ceaab88f3")
 API_ID = getenv("API_ID", "22657083")
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BOT_VER = "4.0.0@main"
 BRANCH = getenv("BRANCH", "main") #don't change this line 
 CMD_HNDLR = cmd
-BOT_TOKEN = getenv("BOT_TOKEN", "8588527575:AAFT9NR3kx5OqpgbqrBkyeTzWRVHJ8mHjWM")
+BOT_TOKEN = getenv("BOT_TOKEN", "none")
 OPENAI_API_KEY = getenv("OPENAI_API_KEY", "")
-CHANNEL = getenv("CHANNEL", "Japanese_Userbot")
-CMD_HANDLER = getenv("CMD_HANDLER", ".")
-DB_URL = getenv("DATABASE_URL", "mongodb+srv://NexaMusic_db_user:NexaMusic@cluster0.prxrqda.mongodb.net/?appName=Cluster0")
+CHANNEL = getenv("CHANNEL", "nexameetup")
+CMD_HANDLER = getenv("CMD_HANDLER", "!")
+DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv("GIT_TOKEN", "")
-GROUP = getenv("GROUP", "fine_n_ok")
+GROUP = getenv("GROUP", "nexameetup")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
-REPO_URL = getenv("REPO_URL", "https://github.com/iambuddy01/Japanese-X-Userbot")
+REPO_URL = getenv("REPO_URL", "https://t.me/nexameetup")
 MONGO_URL = getenv("MONGO_URL", "")
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
