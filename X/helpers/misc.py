@@ -118,7 +118,8 @@ def is_heroku():
 
 def heroku():
     global HAPP
-    if is_heroku:
+    # FIXED LINE ↓↓↓
+    if is_heroku():
         if HEROKU_API_KEY and HEROKU_APP_NAME:
             try:
                 Heroku = heroku3.from_key(HEROKU_API_KEY)
@@ -127,7 +128,7 @@ def heroku():
             except BaseException as e:
                 LOGGER("Heroku").error(e)
                 LOGGER("Heroku").info(
-                    f"Make sure HEROKU_API_KEY dan HEROKU_APP_NAME you are properly configured in heroku config vars."
+                    "Make sure HEROKU_API_KEY and HEROKU_APP_NAME are properly configured in Heroku config vars."
                 )
 
 
@@ -141,7 +142,11 @@ async def create_botlog(client):
     LOGGER("X").info(
         "WAIT A MOMENT MASTER. CURRENTLY CREATING A USERBOT LOG GROUP FOR YOU"
     )
-    desc = "Group Log for Japanese-X-Userbot.\n\PLEASE DO NOT LEAVE THE GROUP INI.\n\nPowered By ~ @Japanese_Userbot ❤️"
+    desc = (
+        "Group Log for Userbot.\n"
+        "\\PLEASE DO NOT LEAVE THE GROUP INI.\n\n"
+        "Powered By ~ #deleted_account ❤️"
+    )
     try:
         photo = "X/resources/logo.jpg"
         gruplog = await client.create_supergroup("Japanese-X-Userbot Logs", desc)
@@ -155,5 +160,6 @@ async def create_botlog(client):
             dotenv.set_key(path, "BOTLOG_CHATID", gruplog.id)
     except Exception:
         LOGGER("X").warning(
-            "var BOTLOG_CHATID you haven't filled it in yet. Create a telegram group and enter the bot @MissRose_bot then type /id Enter the group ID in var BOTLOG_CHATID"
-)
+            "var BOTLOG_CHATID you haven't filled it in yet. Create a telegram group and "
+            "enter the bot @MissRose_bot then type /id. Enter the group ID in var BOTLOG_CHATID"
+        )
