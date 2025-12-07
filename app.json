@@ -1,7 +1,7 @@
 {
-  "name": "Japanese-X-Userbot",
-  "description": "[Japanese-X-Userbot] ᴡᴏʀʟᴅ'ꜱ ʟᴀʀɢᴇꜱᴛ ᴀɴᴅ ꜰᴀꜱᴛᴇꜱᴛ ᴜꜱᴇʀʙᴏᴛ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴊᴀᴘᴀɴᴇꜱᴇ-x-ᴜꜱᴇʀʙᴏᴛ.",
-  "logo": "https://graph.org/file/ec99cb6dba229bd984537.jpg",
+  "name": "deleted-account",
+  "description": "[deleted-account] ᴡᴏʀʟᴅ'ꜱ ʟᴀʀɢᴇꜱᴛ ᴀɴᴅ ꜰᴀꜱᴛᴇꜱᴛ ᴜꜱᴇʀʙᴏᴛ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛ.",
+  "logo": "https://files.catbox.moe/djqewp.jpg",
   "stack": "heroku-22",
   "env": {
     "BOT_TOKEN": {
