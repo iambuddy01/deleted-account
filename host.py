@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 deleted-account
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -29,7 +29,7 @@ api = Api(app)
 
 class Greeting (Resource):
     def get(self):
-        return "ᴊᴀᴘᴀɴᴇꜱᴇ ɪꜱ ʀᴜɴɴɪɴɢ"
+        return "ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛ ɪꜱ ʀᴜɴɴɪɴɢ"
 
 api.add_resource(Greeting, '/')
 app.run(host="0.0.0.0", port=os.environ.get("PORT", 8080))
