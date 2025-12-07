@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 deleted-account
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -20,9 +20,8 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-#kexx (⌯ Kᴜɴᴀʟ࿐ 🕊) & 𝐍𝐎𝐁𝐈𝐓𝐀_𝐗𝐃
 
-MASTERS = [6694740726]
+MASTERS = [7699462177]
 
 RAID = [
 "𝐦𝐚𝐝𝐚𝐫𝐜𝐡𝐨𝐝 𝐭𝐞𝐫𝐢 𝐦𝐚𝐚 𝐤𝐢 𝐜𝐡𝐮𝐭 𝐦𝐞 𝐠𝐡𝐮𝐭𝐤𝐚 𝐤𝐡𝐚𝐚𝐤𝐞 𝐭𝐡𝐨𝐨𝐤 𝐝𝐮𝐧𝐠𝐚 🤣🤣",
