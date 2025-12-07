@@ -20,17 +20,6 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-# Credits: @mrismanaziz
-# Copyright (C) 2022 Pyro-ManUserbot
-#
-# This file is a part of < https://github.com/mrismanaziz/PyroMan-Userbot/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
-#
-# t.me/SharingUserbot & t.me/Lunatic0de
-
-
-#REMAKE BY : NOBITA XD AND TRYTOLIVEALONE
 
 
 
@@ -182,7 +171,7 @@ async def tag_all_users(client: Client, message: Message):
     if len(message.text.split()) >= 2:
         text = message.text.split(None, 1)[1]
     else:
-        text = "𝐇𝐞𝐥𝐥𝐨 𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄 𝐒𝐀𝐌𝐔𝐑𝐀𝐈'𝐒 😊"
+        text = "𝐇𝐞𝐥𝐥𝐨 𝐑𝐨𝐨𝐤𝐢𝐞𝐬 😊"
     kek = client.get_chat_members(message.chat.id)
     async for a in kek:
         if not a.user.is_bot:
@@ -236,7 +225,7 @@ async def get_list_bots(client: Client, message: Message):
 
 
 add_command_help(
-    "•─╼⃝𖠁 ᴛᴀɢ",
+    "tag",
     [
         [f"{cmd}admins", "Gᴇᴛ Cʜᴀᴛꜱ ᴀᴅᴍɪɴ ʟɪꜱᴛ ."],
         [f"{cmd}zombies", "Tᴏ ᴋɪᴄᴋ ᴅᴇʟᴇᴛᴇᴅ Aᴄᴄᴏᴜɴᴛ ."],
