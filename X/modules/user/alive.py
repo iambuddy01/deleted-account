@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 deleted-account
 
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,21 +21,6 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-# Credits: @mrismanaziz
-# Copyright (C) 2022 Pyro-ManUserbot
-#
-# This file is a part of < https://github.com/mrismanaziz/PyroMan-Userbot/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
-#
-# t.me/SharingUserbot & t.me/Lunatic0de
-
-
-#REMAKE BY : NOBITA XD AND TRYTOLIVEALONE
-#DON'T KANG FUCKING COWARD
-#BSDKE KANG KIYA TOH SOCH LIYO
-#AAG LAGA DUNGA TERE ANDAR 
-#SAMJHA ? 
 
 
 import asyncio
@@ -69,29 +54,26 @@ alive_logo = (
     gvarstatus("ALIVE_LOGO") or ""
 )
 emoji = gvarstatus("ALIVE_EMOJI") or "✧"
-alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "✧✧ 𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄-𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 ✧✧"
+alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "✧ 𝐃𝐄𝐋𝐄𝐓𝐄𝐃 𝐀𝐂𝐂𝐎𝐔𝐍𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 ✧"
 
 
 @Client.on_message(
     filters.command(["alive"], ".") & (filters.me | filters.user(SUDO_USERS))
 )
 async def alip(client: Client, message: Message):
-    X = await edit_or_reply(message, "🌸")
+    X = await edit_or_reply(message, "⚡")
     await asyncio.sleep(2)
     sad = client.send_video if alive_logo.endswith(".mp4") else client.send_photo
     uptime = await get_readable_time((time.time() - StartTime))
     man = (
         f"<b>{alive_text}</b>\n\n"
-        f"<b>•─╼⃝𖠁 𝐒ʏꜱᴛᴇ𝐌 𝐒ᴛᴀᴛᴜ𝐒 </b>\n\n"
-        f"{emoji} <b>𝐌ʏ 𝐌ᴀꜱᴛᴇ𝐑:</b> [{client.me.mention}](tg://user?id={OWNER_ID}) \n\n"
-        f"{emoji} <b>𝐏ʏʀᴏɢʀᴀ𝐌 𝐕ᴇʀꜱɪᴏ𝐍:</b> <code>{versipyro}</code>\n\n"
-        f"{emoji} <b>𝐁ᴏᴛ 𝐔ᴘᴛɪᴍ𝐄:</b> <code>{uptime}</code> \n\n"
-        f"{emoji} <b>𝐕ᴇʀꜱɪᴏ𝐍:</b> <code>{BOT_VER}</code> \n\n"
-        f"{emoji} <b>𝐌ᴏᴅᴜʟᴇ𝐒:</b> <code>{len(modules)} 𝐌ᴏᴅᴜʟᴇ𝐒</code> \n\n"
-        f"{emoji} <b>𝐏ʏᴛʜᴏ𝐍 𝐕ᴇʀꜱɪᴏ𝐍:</b> <code>{python_version()}</code> \n\n"
-        f"{emoji} <b>𝐆ʀᴏᴜ𝐏 :</b> [𝐒ᴜᴘᴘᴏʀ𝐓](https://t.me/Japanese_Userbot_Support)** \n\n"
-        f"{emoji} <b>𝐂ʜᴀɴɴᴇʟ:<b> [𝐔ᴘᴅᴀᴛᴇ𝐒](https://t.me/Japanese_Userbot)** \n\n"
-        f"{emoji} <b>[𝐃ᴇᴘʟᴏʏ](http://dashboard.heroku.com/new?template=https://github.com/Team-Japanese/Japanese-X-Userbot) 𝐘ᴏᴜʀ 𝐎ᴡɴ [𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄-𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓](http://github.com/Team-Japanese/Japanese-X-Userbot) ✧\n\n"
+        f"<b>• sʏꜱᴛᴇᴍ sᴛᴀᴛᴜs </b>\n\n"
+        f"{emoji} <b>ᴍʏ ᴍᴀꜱᴛᴇʀ:</b> [{client.me.mention}](tg://user?id={OWNER_ID}) \n\n"
+        f"{emoji} <b>ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀꜱɪᴏɴ:</b> <code>{versipyro}</code>\n\n"
+        f"{emoji} <b>ʙᴏᴛ ᴜᴘᴛɪᴍᴇ:</b> <code>{uptime}</code> \n\n"
+        f"{emoji} <b>ᴠᴇʀꜱɪᴏɴ:</b> <code>{BOT_VER}</code> \n\n"
+        f"{emoji} <b>ᴍᴏᴅᴜʟᴇs:</b> <code>{len(modules)} 𝐌ᴏᴅᴜʟᴇ𝐒</code> \n\n"
+        f"{emoji} <b>ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ:</b> <code>{python_version()}</code> \n\n"
         
     )
     try:
