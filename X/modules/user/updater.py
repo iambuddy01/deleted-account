@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 deleted-account
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -283,7 +283,7 @@ async def updaterman(client: Client, message: Message):
 
 
 add_command_help(
-    "•─╼⃝𖠁 ᴜᴘᴅᴀᴛᴇ",
+    "update",
     [
         ["update", "Tᴏ ꜱᴇᴇ ᴀ ʟɪꜱᴛ ᴏғ ᴛʜᴇ ʟᴀᴛᴇꜱᴛ ᴜᴘᴅᴀᴛᴇꜱ ғʀᴏᴍ Jᴀᴘᴀɴᴇꜱᴇ-X-Uꜱᴇʀʙᴏᴛ."],
         ["update deploy", "Tᴏ ᴜᴘᴅᴀᴛᴇ ᴜꜱᴇʀʙᴏᴛ."],
