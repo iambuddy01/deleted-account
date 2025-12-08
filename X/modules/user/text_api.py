@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 deleted-account
 
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,13 +21,6 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-# Credit : Zaid Userbot 
-
-#REMAKE BY : NOBITA XD
-#DON'T KANG FUCKING COWARD
-#BSDKE KANG KIYA TOH SOCH LIYO
-#AAG LAGA DUNGA TERE ANDAR 
-#SAMJHA ? 
 
 
 from aiohttp.client_exceptions import ClientError
@@ -114,7 +107,7 @@ async def text_api(bot: Client, message: Message):
 # Command help section
 for x in text_apis_data:
     add_command_help(
-        "•─╼⃝𖠁 Tᴇxᴛ",
+        "text",
         [
             [f".{x}", text_apis_data[x]["help"]],
         ],
