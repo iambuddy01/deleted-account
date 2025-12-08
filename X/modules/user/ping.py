@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 deleted-account
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -20,16 +20,6 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-# Credits: @mrismanaziz
-# Copyright (C) 2022 Pyro-ManUserbot
-#
-# This file is a part of < https://github.com/mrismanaziz/PyroMan-Userbot/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
-#
-# t.me/SharingUserbot & t.me/Lunatic0de
-
-#REMAKE BY NOBITA XD AND TRYTOLIVEALONE
 
 import time
 from datetime import datetime
@@ -139,9 +129,9 @@ async def pingme(client: Client, message: Message):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await message.reply_text(
-        f"❏ **𝐏ɪɴ𝐆 𝐏ᴏɴ𝐆 𝐃ɪɴ𝐆 𝐃ᴏɴ𝐆 !!**\n"
+        f"🏓 ** ᴘɪɴɢ ᴘᴏɴɢ!!**\n"
         f"**├• ** `%sms`\n"
-        f"╰•** 𝐌ʏ 𝐌ᴀs𝐓ᴇ𝐑 :** {client.me.mention}" % (duration)
+        f"╰•** 💻 ᴍᴀsᴛᴇʀ :** {client.me.mention}" % (duration)
     )
 
 
@@ -152,16 +142,16 @@ async def pingme(client: Client, message: Message):
 async def pink(client: Client, message: Message):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    X = await message.reply("**Sabarr Dog Lagging...**")
+    X = await message.reply("**sᴀʙᴀʀʀ ᴅᴏɢ ʟᴀɢɢɪɴɢ...**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await X.edit(
-        f"**❏Japanese-X-Userbot**\n"
-        f"**├• PING   :** "
+        f"**🏓 ᴘɪɴɢ ᴘᴏɴɢ**\n"
+        f"**├• ᴘɪɴɢ  :** "
         f"`%sms` \n"
-        f"**├•  Uptime  :** "
+        f"**├•  ᴜᴘᴛɪᴍᴇ  :** "
         f"`{uptime}` \n"
-        f"**└•  my father   :** {client.me.mention}" % (duration)
+        f"**└•  ᴍᴀsᴛᴇʀ   :** {client.me.mention}" % (duration)
     )
   
 
@@ -174,7 +164,7 @@ async def pink(client: Client, message: Message):
 async def X(client: Client, message: Message):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    xx = await edit_or_reply(message, "DEAR COCOKIN")
+    xx = await edit_or_reply(message, "ᴅᴇᴀʀ ᴄᴏᴄᴏᴋɪɴ")
     await xx.edit("8=✊==D")
     await xx.edit("8==✊=D")
     await xx.edit("8===✊D")
@@ -190,12 +180,12 @@ async def X(client: Client, message: Message):
     await xx.edit("8=✊==D")
     await xx.edit("8==✊=D")
     await xx.edit("8===✊D")
-    await xx.edit("**AHH I'M GOING TO CROT**")
+    await xx.edit("**ᴀʜʜ ɪ'ᴍ ɢᴏɪɴɢ ᴛᴏ ᴄʀᴏᴛ**")
     await xx.edit("8===✊D💦")
     await xx.edit("8====D💦💦")
-    await xx.edit("**CROOTTTT**")
-    await xx.edit("**CROOTTTT AAAHHH.....**")
-    await xx.edit("AHHH ENAKKKKK DARLINGGGG🥵🥵")
+    await xx.edit("**ᴄʀᴏᴏᴛᴛᴛᴛ**")
+    await xx.edit("**ᴄʀᴏᴏᴛᴛᴛᴛ ᴀᴀᴀʜʜʜ.....**")
+    await xx.edit("ᴀʜʜʜ ᴇɴᴀᴋᴋᴋᴋᴋ ᴅᴀʀʟɪɴɢɢɢɢ🥵🥵")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xx.edit
