@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 deleted-account
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -19,15 +19,6 @@
 #LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
-
-#CREDIT : GURU BOT THANKS FOR YOUR ANIME API 
-
-#REMAKE BY : NOBITA XD AND TRYTOLIVEALONE
-# Copyright (C) 2024 JAPANESE X USERBOT
-#DON'T KANG FUCKING COWARD
-#BSDKE KANG KIYA TOH SOCH LIYO
-#AAG LAGA DUNGA TERE ANDAR 
-#SAMJHA ? 
 
 
 
@@ -71,7 +62,7 @@ async def anime3(client: Client, message: Message):
     await message.edit("Random anime image sent!")
 
 add_command_help(
-    "•─╼⃝𖠁 ᴀɴɪᴍᴇ3",
+    "anime3",
     [
        ["anime3", "Gɪᴠᴇ random anime pic."],
         ],
