@@ -70,7 +70,7 @@ async def bday(x: Client, e: Message):
 
 
 add_command_help(
-    "•─╼⃝𖠁 Bᴅᴀʏ",
+    "bday",
     [
         ["bday", "Tᴏ ꜱᴇɴᴅ Bɪʀᴛʜᴅᴀʏ ᴡɪsʜᴇs Mᴇssᴀɢᴇs."],
     ],
