@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 deleted-account
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -20,7 +20,6 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-#Legnendx22 Thanks for your Sticker pack 
 
 import random
 from pyrogram import Client, filters
@@ -48,7 +47,7 @@ async def bsdke(client, message):
     await message.reply_photo(bsdke_url)
 
 add_command_help(
-    "•─╼⃝𖠁 Bsᴅᴋᴇ",
+    "bsdke",
     [
        ["bsdke", "Gɪᴠᴇ random Bsᴅᴋᴇ pic."],
         ],
