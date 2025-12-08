@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 deleted-account
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -68,7 +68,7 @@ async def unsplash_pictures(bot: Client, message: Message):
 
 
 add_command_help(
-    "•─╼⃝𖠁 ᴜɴꜱᴘʟᴀꜱʜ",
+    "unsplash",
     [
         [".unsplash ᴏʀ .pic", "Sᴇɴᴅ ʀᴀɴᴅᴏᴍ ᴘɪᴄ ᴏғ ᴋᴇʏᴡᴏʀᴅ ғɪʀꜱᴛ ᴀʀɢᴜᴍᴇɴᴛ."],
     ],
