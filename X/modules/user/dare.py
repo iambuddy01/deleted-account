@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 deleted-account
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -20,12 +20,6 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-# Credits: KUNAL AND NOBITA XD 
-# Copyright (C) 2024 JAPANESE X USERBOT AND STORM USERBOT 
-#DON'T KANG FUCKING COWARD
-#BSDKE KANG KIYA TOH SOCH LIYO
-#AAG LAGA DUNGA TERE ANDAR 
-#SAMJHA ? 
 
 
 import asyncio
@@ -68,7 +62,7 @@ async def dare(x: Client, e: Message):
 
 
 add_command_help(
-    "•─╼⃝𖠁 Dᴀʀᴇ",
+    "dare",
     [
         ["dare", "Tᴏ ꜱᴇɴᴅ Dᴀʀᴇ Mᴇssᴀɢᴇs."],
     ],
