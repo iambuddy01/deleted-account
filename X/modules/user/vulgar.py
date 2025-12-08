@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 deleted-account
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -80,7 +80,7 @@ async def i_am_not_allowed_to_say_this(bot: Client, message: Message):
 
 
 add_command_help(
-    "•─╼⃝𖠁 ᴠᴜʟɢᴀʀ",
+    "vulgar",
     [
         [".vulgar", "Tᴏɢɢʟᴇꜱ ʙᴀᴅ ᴡᴏʀᴅ ғɪʟᴛᴇʀɪɴɢ ᴏɴ ᴀɴᴅ ᴏғғ."],
     ],
